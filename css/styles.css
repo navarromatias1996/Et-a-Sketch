@@ -8,7 +8,7 @@
       font-family: 'Audiowide';font-size: 9px; text-align: center;
       
     }
-    h2,label{
+    h2, h1{
         color: rgb(233, 210, 7);
         text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
     }
@@ -28,8 +28,8 @@
     height: auto;
     border: 1px solid rgb(10, 156, 161);
   }
-  #cleaner, #rcSelector{
-      margin: 1% auto;
+  #cleaner, #rcSelector, #title{
+      margin: 2% auto;
       padding: 1px 1px;;
       width: 50%;
       border: rgb(211, 211, 216) solid;
