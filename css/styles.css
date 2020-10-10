@@ -17,8 +17,8 @@
     gap:0px;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
-    width:400px !important;
-    height:258px !important;
+    width:650px !important;
+    height:270px !important;
     margin: 15px auto 10px auto;
     background-color: white;
   }
