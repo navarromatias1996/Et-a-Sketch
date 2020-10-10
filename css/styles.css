@@ -1,0 +1,38 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+    --background-color: white;
+  }
+  body{
+      background-image: url(https://images.wallpapersden.com/image/download/fantasy-forest-art_64358_2560x1440.jpg);
+      font-family: 'Audiowide';font-size: 9px; text-align: center;
+      
+    }
+    h2,label{
+        color: rgb(233, 210, 7);
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    }
+  #container {
+    display: grid;
+    gap:0px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    width:400px !important;
+    height:258px !important;
+    margin: 15px auto 10px auto;
+    background-color: white;
+  }
+  
+  .grid-item {
+    display: grid;
+    height: auto;
+    border: 1px solid rgb(10, 156, 161);
+  }
+  #cleaner, #rcSelector{
+      margin: 1% auto;
+      padding: 1px 1px;;
+      width: 50%;
+      border: rgb(211, 211, 216) solid;
+      border-radius: 15px; 
+  }
+ 
